@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Predictcrop">
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ph value : 6.7"
+        android:textSize="23dp" />
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Hello predictcrop"
+        android:layout_gravity="center"
+        android:id="@+id/txt4" />-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Black"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:id="@+id/edttxt1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:id="@+id/but3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="23dp"
+        android:text="Crops according to ph and type of soil are :
+Cotton
+Sugarcane
+Groudnut
+Jute"
+        android:layout_gravity="center"
+        android:scrollbars="vertical"
+        android:id="@+id/txt5"
+        />
+
+</android.support.v7.widget.FitWindowsLinearLayout>
